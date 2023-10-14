@@ -12,6 +12,7 @@ public class Board{
     //set up JFrame
     f.setSize(410,305);  
     f.setLayout(null); 
+    f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     
     //initialize the ArrayList of Dice
     dice = new ArrayList<Die>();
